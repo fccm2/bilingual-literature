@@ -138,6 +138,32 @@ https://fccm.github.io/bilingual-literature/Jules_Verne/20_000_Leagues_Under_the
 https://fccm.github.io/bilingual-literature/Jules_Verne/A_Journey_to_the_Interior_of_the_Earth/A_Journey_to_the_Interior_of_the_Earth_00.html)
 
 
+## The Mummy's Foot, by Théophile Gautier
+
+[Read online](
+https://fccm.github.io/bilingual-literature/T_Gautier/The_Mummy_s_Foot/The_Mummy_s_Foot.html)
+
+## One of Cleopatra's Nights, by Théophile Gautier
+
+[Read online](
+https://fccm.github.io/bilingual-literature/T_Gautier/One_of_Cleopatra_s_Nights/One_of_Cleopatra_s_Nights.html)
+
+## The Romance of a Mummy, by Théophile Gautier
+
+[Read online](
+https://fccm.github.io/bilingual-literature/T_Gautier/The_Romance_of_a_Mummy/The_Romance_of_a_Mummy.html)
+
+## La Morte amoureuse, by Théophile Gautier
+
+[Read online](
+https://fccm.github.io/bilingual-literature/T_Gautier/Clarimonde/Clarimonde.html)
+
+## Arria Marcella, A Souvenir of Pompeii, by Théophile Gautier
+
+[Read online](
+https://fccm.github.io/bilingual-literature/T_Gautier/A_Souvenir_of_Pompeii/A_Souvenir_of_Pompeii.html)
+
+
 ## War and Peace, by Leo Tolstoy
 
 [Read online](
