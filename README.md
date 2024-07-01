@@ -144,6 +144,12 @@ https://fccm2.github.io/bilingual-literature/Jules_Verne/A_Journey_to_the_Interi
 https://fccm2.github.io/bilingual-literature/Jules_Verne/Around_the_World_in_Eighty_Days/Around_the_World_in_Eighty_Days_00.html)
 
 
+## Five Weeks in a Balloon, by Jules Verne
+
+[Read online](
+https://fccm2.github.io/bilingual-literature/Jules_Verne/Five_Weeks_in_a_Balloon/Five_Weeks_in_a_Balloon-00.html)
+
+
 ## The Mummy's Foot, by Théophile Gautier
 
 [Read online](
