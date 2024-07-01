@@ -138,6 +138,12 @@ https://fccm2.github.io/bilingual-literature/Jules_Verne/20_000_Leagues_Under_th
 https://fccm2.github.io/bilingual-literature/Jules_Verne/A_Journey_to_the_Interior_of_the_Earth/A_Journey_to_the_Interior_of_the_Earth_00.html)
 
 
+## Around the World in Eighty Days, by Jules Verne
+
+[Read online](
+https://fccm2.github.io/bilingual-literature/Jules_Verne/Around_the_World_in_Eighty_Days/Around_the_World_in_Eighty_Days_00.html)
+
+
 ## The Mummy's Foot, by Théophile Gautier
 
 [Read online](
