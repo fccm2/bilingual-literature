@@ -236,6 +236,12 @@ https://fccm2.github.io/bilingual-literature/Grimm/The_Wolf_and_the_Fox/The_Wolf
 https://fccm2.github.io/bilingual-literature/Grimm/The_Fox_and_the_Cat/The_Fox_and_the_Cat.html)
 
 
+### The Fox and the Geese, by Jacob and Wilhelm Grimm
+
+[Read online](
+https://fccm2.github.io/bilingual-literature/Grimm/The_Fox_and_the_Geese/The_Fox_and_the_Geese.html)
+
+
 ### The Lady with the Camellias, by Alexandre Dumas son
 
 [Read online](
