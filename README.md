@@ -117,7 +117,7 @@ https://fccm2.github.io/bilingual-literature/R_L_Stevenson/Treasure_Island/Treas
 ### Strange Case of Dr Jekyll and Mr Hyde, by Robert Louis Stevenson
 
 [Read online](
-https://fccm2.github.io/bilingual-literature/R_L_Stevenson/Dr_Jekyll_and_Mr_Hyde/Dr_Jekyll_and_Mr_Hyde.contents.html)
+https://fccm2.github.io/bilingual-literature/R_L_Stevenson/Dr_Jekyll_and_Mr_Hyde/Dr_Jekyll_and_Mr_Hyde-00.html)
 
 
 ### Five Weeks in a Balloon, by Jules Verne
