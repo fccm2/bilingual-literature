@@ -24,28 +24,22 @@ https://fccm2.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in
 https://fccm2.github.io/bilingual-literature/Shakespeare/Antony_and_Cleopatra/Antony_and_Cleopatra.html)
 
 
-### Romeo and Juliet, by William Shakespeare
-
-[Read online](
-https://fccm2.github.io/bilingual-literature/Shakespeare/Romeo_and_Juliet/Romeo_and_Juliet.html)
-
-
 ### The Lost World, by Arthur Conan Doyle
 
 [Read online](
 https://fccm2.github.io/bilingual-literature/A_C_Doyle/The_Lost_World/The_Lost_World-00.html)
 
 
-### The Hound of the Baskervilles, by Arthur Conan Doyle
-
-[Read online](
-https://fccm2.github.io/bilingual-literature/A_C_Doyle/The_Hound_of_the_Baskervilles/The_Hound_of_the_Baskervilles.html)
-
-
 ### The Adventures of Sherlock Holmes, by Arthur Conan Doyle
 
 [Read online](
 https://fccm2.github.io/bilingual-literature/A_C_Doyle/The_Adventures_of_Sherlock_Holmes/The_Adventures_of_Sherlock_Holmes.html)
+
+
+### The Hound of the Baskervilles, by Arthur Conan Doyle
+
+[Read online](
+https://fccm2.github.io/bilingual-literature/A_C_Doyle/The_Hound_of_the_Baskervilles/The_Hound_of_the_Baskervilles.html)
 
 
 ### A Study in Scarlet, by Arthur Conan Doyle
@@ -60,16 +54,16 @@ https://fccm2.github.io/bilingual-literature/A_C_Doyle/A_Study_in_Scarlet/A_Stud
 https://fccm2.github.io/bilingual-literature/A_Dumas/The_Three_Musketeers/The_Three_Musketeers.html)
 
 
-### Dracula, by Bram Stoker
-
-[Read online](
-https://fccm2.github.io/bilingual-literature/Bram_Stoker/Dracula/Dracula-index.html)
-
-
 ### The Jungle Book, by Rudyard Kipling
 
 [Read online](
 https://fccm2.github.io/bilingual-literature/Rudyard_Kipling/The_Jungle_Book/The_Jungle_Book-00.html)
+
+
+### Dracula, by Bram Stoker
+
+[Read online](
+https://fccm2.github.io/bilingual-literature/Bram_Stoker/Dracula/Dracula-index.html)
 
 
 ### The Extraordinary Adventures of Arsene Lupin, Gentleman Burglar, by Maurice Leblanc
@@ -126,16 +120,10 @@ https://fccm2.github.io/bilingual-literature/R_L_Stevenson/Treasure_Island/Treas
 https://fccm2.github.io/bilingual-literature/R_L_Stevenson/Dr_Jekyll_and_Mr_Hyde/Dr_Jekyll_and_Mr_Hyde.contents.html)
 
 
-### 20,000 Leagues Under the Seas, by Jules Verne
+### Five Weeks in a Balloon, by Jules Verne
 
 [Read online](
-https://fccm2.github.io/bilingual-literature/Jules_Verne/20_000_Leagues_Under_the_Seas/20_000_Leagues_Under_the_Seas.html)
-
-
-### A Journey to the Interior of the Earth, by Jules Verne
-
-[Read online](
-https://fccm2.github.io/bilingual-literature/Jules_Verne/A_Journey_to_the_Interior_of_the_Earth/A_Journey_to_the_Interior_of_the_Earth_00.html)
+https://fccm2.github.io/bilingual-literature/Jules_Verne/Five_Weeks_in_a_Balloon/Five_Weeks_in_a_Balloon-00.html)
 
 
 ### Around the World in Eighty Days, by Jules Verne
@@ -144,10 +132,16 @@ https://fccm2.github.io/bilingual-literature/Jules_Verne/A_Journey_to_the_Interi
 https://fccm2.github.io/bilingual-literature/Jules_Verne/Around_the_World_in_Eighty_Days/Around_the_World_in_Eighty_Days_00.html)
 
 
-### Five Weeks in a Balloon, by Jules Verne
+### A Journey to the Interior of the Earth, by Jules Verne
 
 [Read online](
-https://fccm2.github.io/bilingual-literature/Jules_Verne/Five_Weeks_in_a_Balloon/Five_Weeks_in_a_Balloon-00.html)
+https://fccm2.github.io/bilingual-literature/Jules_Verne/A_Journey_to_the_Interior_of_the_Earth/A_Journey_to_the_Interior_of_the_Earth_00.html)
+
+
+### 20,000 Leagues Under the Seas, by Jules Verne
+
+[Read online](
+https://fccm2.github.io/bilingual-literature/Jules_Verne/20_000_Leagues_Under_the_Seas/20_000_Leagues_Under_the_Seas.html)
 
 
 ### The Mummy's Foot, by Théophile Gautier
@@ -168,7 +162,7 @@ https://fccm2.github.io/bilingual-literature/T_Gautier/One_of_Cleopatra_s_Nights
 https://fccm2.github.io/bilingual-literature/T_Gautier/The_Romance_of_a_Mummy/The_Romance_of_a_Mummy.html)
 
 
-### La Morte amoureuse, by Théophile Gautier
+### Clarimonde, by Théophile Gautier
 
 [Read online](
 https://fccm2.github.io/bilingual-literature/T_Gautier/Clarimonde/Clarimonde.html)
@@ -252,6 +246,12 @@ https://fccm2.github.io/bilingual-literature/Grimm/The_Fox_and_the_Geese/The_Fox
 https://fccm2.github.io/bilingual-literature/A_Dumas_son/Camille/Camille.html)
 
 
+### Romeo and Juliet, by William Shakespeare
+
+[Read online](
+https://fccm2.github.io/bilingual-literature/Shakespeare/Romeo_and_Juliet/Romeo_and_Juliet.html)
+
+
 ### The Impostures of Scapin, by Molière
 
 [Read online](
@@ -264,10 +264,10 @@ https://fccm2.github.io/bilingual-literature/Moliere/The_Impostures_of_Scapin/Th
 https://fccm2.github.io/bilingual-literature/Choderlos_de_Laclos/Dangerous_Connections/Dangerous_Connections.html)
 
 
-### David Copperfield, by Charles Dickens
+### Frankenstein, by Mary Shelley 
 
 [Read online](
-https://fccm2.github.io/bilingual-literature/Charles_Dickens/David_Copperfield/David_Copperfield-en-fr-TOC.html)
+https://fccm2.github.io/bilingual-literature/Mary_Shelley/Frankenstein/Frankenstein-fr-en-00.html)
 
 
 ### Olivier Twist, by Charles Dickens
@@ -276,8 +276,8 @@ https://fccm2.github.io/bilingual-literature/Charles_Dickens/David_Copperfield/D
 https://fccm2.github.io/bilingual-literature/Charles_Dickens/Oliver_Twist/Oliver_Twist-fr-en-00.html)
 
 
-### Frankenstein, by Mary Shelley 
+### David Copperfield, by Charles Dickens
 
 [Read online](
-https://fccm2.github.io/bilingual-literature/Mary_Shelley/Frankenstein/Frankenstein-fr-en-00.html)
+https://fccm2.github.io/bilingual-literature/Charles_Dickens/David_Copperfield/David_Copperfield-en-fr-TOC.html)
 
