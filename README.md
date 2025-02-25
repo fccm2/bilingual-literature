@@ -155,20 +155,24 @@ https://fccm2.github.io/bilingual-literature/Jules_Verne/Five_Weeks_in_a_Balloon
 [Read online](
 https://fccm2.github.io/bilingual-literature/T_Gautier/The_Mummy_s_Foot/The_Mummy_s_Foot.html)
 
+
 ### One of Cleopatra's Nights, by Théophile Gautier
 
 [Read online](
 https://fccm2.github.io/bilingual-literature/T_Gautier/One_of_Cleopatra_s_Nights/One_of_Cleopatra_s_Nights.html)
+
 
 ### The Romance of a Mummy, by Théophile Gautier
 
 [Read online](
 https://fccm2.github.io/bilingual-literature/T_Gautier/The_Romance_of_a_Mummy/The_Romance_of_a_Mummy.html)
 
+
 ### La Morte amoureuse, by Théophile Gautier
 
 [Read online](
 https://fccm2.github.io/bilingual-literature/T_Gautier/Clarimonde/Clarimonde.html)
+
 
 ### Arria Marcella, A Souvenir of Pompeii, by Théophile Gautier
 
@@ -265,24 +269,15 @@ https://fccm2.github.io/bilingual-literature/Choderlos_de_Laclos/Dangerous_Conne
 [Read online](
 https://fccm2.github.io/bilingual-literature/Charles_Dickens/David_Copperfield/David_Copperfield-en-fr-TOC.html)
 
-[Get XML sources](
-https://github.com/fccm2/bilingual-literature/tree/master/Charles_Dickens/David_Copperfield)
-
 
 ### Olivier Twist, by Charles Dickens
 
 [Read online](
 https://fccm2.github.io/bilingual-literature/Charles_Dickens/Oliver_Twist/Oliver_Twist-fr-en-00.html)
 
-[Get XML sources](
-https://github.com/fccm2/bilingual-literature/tree/master/Charles_Dickens/Oliver_Twist)
-
 
 ### Frankenstein, by Mary Shelley 
 
 [Read online](
 https://fccm2.github.io/bilingual-literature/Mary_Shelley/Frankenstein/Frankenstein-fr-en-00.html)
-
-[Get XML sources](
-https://github.com/fccm2/bilingual-literature/tree/master/Mary_Shelley/Frankenstein)
 
