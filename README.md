@@ -24,6 +24,12 @@ https://fccm2.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in
 https://fccm2.github.io/bilingual-literature/Shakespeare/Antony_and_Cleopatra/Antony_and_Cleopatra.html)
 
 
+### Othello, by William Shakespeare
+
+[Read online](
+https://fccm2.github.io/bilingual-literature/Shakespeare/Othello/Othello.html)
+
+
 ### The Lost World, by Arthur Conan Doyle
 
 [Read online](

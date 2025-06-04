@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Othello, by William Shakespeare</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<style type="text/css" media="screen">
+body {
+  color:#BBC;
+  background:#EEE;
+  padding:1em 1em 4em 2em;
+  margin:0;
+}
+td {
+  border:1px solid #ABC;
+  padding:0;
+  margin:1px;
+}
+table {
+  width:1080px;
+}
+td {
+  width:50%;
+  vertical-align:top;
+}
+p { padding:0; }
+p { font-size:0.94em; }
+
+h1 { font-size:1.3em; padding-left:0.2em; }
+h2 { font-size:0.9em; padding-left:2.0em; }
+
+.stage2,
+em { font-size:0.85em; padding-left:1.0em; }
+.stage2 { font-style:italic; }
+i { font-size:0.85em; }
+
+td.en p, h1.en, h2.en, h3.en { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
+td.fr p, h1.fr, h2.fr, h3.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
+
+h4.en, h5.en { margin:0.4em 1.8em 0.4em 0.6em; color:#420; }
+h4.fr, h5.fr { margin:0.4em 0.6em 0.4em 1.8em; color:#024; }
+
+h6.en { margin:0.4em 1.8em 0.4em 4.2em; color:#420; }
+h6.fr { margin:0.4em 0.6em 0.4em 6.2em; color:#024; }
+
+.stage1 {
+  font-size:0.85em;
+  padding-left:1.8em;
+  font-style:oblique;
+  font-style:italic;
+}
+
+@media (max-width: 640px) {
+  table { width:100%; }
+  body {
+    padding:1em 1px 3em 1px;
+    margin:0;
+  }
+  td.en p { margin:0; }
+  td.fr p { margin:0; }
+}
+</style>
+
+<style type="text/css" media="print">
+body { background:#FFF; color:#000; }
+a { text-decoration:none; color:#000; }
+h1, h2, h3, h4 { color:#000; }
+table { width:100%; }
+td { width:50%; }
+td {
+  border:1px solid #000;
+  padding:0;
+  margin:1px;
+  vertical-align:top;
+}
+td.en p { margin:0.2em 0.6em 0.2em 0.4em; }
+td.fr p { margin:0.2em 0.4em 0.2em 0.6em; }
+td p { font-size:0.7em; text-indent:0.8em; }
+</style>
+
+</head>
+<body>
+
+<!--
+
+From:
+  https://en.wikisource.org/wiki/Shakespeare_-_First_Folio_facsimile_(1910)/The_Tragedie_of_Othello,_the_Moore_of_Venice
+  https://fr.wikisource.org/wiki/Othello_(trad._Hugo)
+
+-->
+
+<table>
+
+<tr>
+  <td class="fr">
+    <h1 class="fr">La tragédie d’Othello, le More de Venise</h1>
+  </td>
+  <td class="en">
+    <h1 class="en">The Tragedie of Othello, the Moor of Venice</h1>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h2 class="fr">de William Shakespeare</h2>
+  </td>
+  <td class="en">
+    <h2 class="en">by William Shakespeare</h2>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h6 class="fr">Traduction de François-Victor Hugo (1868)</h6>
+  </td>
+  <td class="en">
+    <h6 class="en">(1603)</h6>
+  </td>
+</tr>
+
+
+<tr id="Act_I_Scene_I">
+  <td class="fr">
+    <h3 class="fr">ACTE I</h3>
+  </td>
+  <td class="en">
+    <h3 class="en">ACT I</h3>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <h2 class="fr">SCÈNE I</h2>
+  </td>
+  <td class="en">
+    <h2 class="en">SCENE I</h2>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <p>
+      <em>Arrivent Roderigo et Iago.</em>
+    </p>
+  </td>
+  <td class="en">
+    <p>
+      <em>Rodorigo, and Iago.</em>
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+&nbsp; — Fi ! Ne m’en parle pas. Je suis fort contrarié — que toi, Iago, qui as
+usé de ma bourse, — comme si les cordons t’appartenaient, tu aies eu
+connaissance de cela.</p>
+  </td>
+  <td class="en">
+<p>Rodorigo.<br />
+&nbsp; Neuer tell me, I take it much vnkindly<br />
+That thou (Iago) who hast had my purse,<br />
+As if ye strings were thine, should'st know of this.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+— Tudieu ! Mais vous ne voulez pas m’entendre. — Si jamais j’ai songé à
+pareille chose, — exécrez-moi.</p>
+  </td>
+  <td class="en">
+<p>Iago.<br />
+But you'l not heare me. If euer I did dream<br />
+Of such a matter, abhorre me.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+Tu m’as dit que tu le haïssais.</p>
+  </td>
+  <td class="en">
+<p>Rodo.<br />
+Thou told'st me,<br />
+Thou did'st hold him in thy hate.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+— Méprisez-moi, si ce n’est pas vrai. Trois grands de la Cité — vont en
+personne, pour qu’il me fasse son lieutenant, le solliciter, — chapeau bas, et,
+foi d’homme, je sais mon prix, je ne mérite pas un grade moindre. — Mais lui,
+entiché de son orgueil et de ses idées, — répond évasivement, et, dans un
+jargon — ridicule, bourré de termes de guerre, — il éconduit mes protecteurs.
+En vérité, dit-il, — j’ai déjà choisi mon officier. — Et quel est cet officier
+? — Morbleu ! C’est un grand calculateur, — un Michel Cassio, un Florentin, —
+un garçon presque condamné à la vie d’une jolie femme, — qui n’a jamais rangé
+en bataille un escadron, — et qui ne connaît pas mieux la manœuvre — qu’une
+donzelle, ne possédant que la théorie des bouquins, — sur laquelle des robins
+bavards peuvent disserter — aussi magistralement que lui. N’importe ! à lui la
+préférence ! Un babil sans pratique — est tout ce qu’il a de militaire. — Et
+moi, qui, sous les yeux de l’autre, ai fait mes preuves — à Rhodes, à Chypre et
+dans maints pays — chrétiens et païens, il faut que je reste en panne et que je
+sois dépassé — par un teneur de livres, un faiseur d’additions ! — C’est lui,
+au moment venu, qu’on doit faire lieutenant, — et moi, je reste l’enseigne
+(titre que Dieu bénisse !) de Sa Seigneurie more.</p>
+  </td>
+  <td class="en">
+<p>Iago.<br />
+Despise me<br />
+If I do not. Three Great-ones of the Cittie,<br />
+(In personall suite to make me his Lieutenant)<br />
+Off-capt to him: and by the faith of man<br />
+I know my price, I am worth no worsse a place.<br />
+But he (as louing his owne pride, and purposes)<br />
+Euades them, with a bumbast Circumstance,<br />
+Horribly stufft with Epithites of warre,<br />
+Non-suites my Mediators. For certes, saies he,<br />
+I haue already chose my Officer. And what was he?<br />
+For-sooth, a great Arithmatician,<br />
+One Michaell Cassio, a Florentine,<br />
+(A Fellow almost damn'd in a faire Wife)<br />
+That neuer set a Squadron in the Field,<br />
+Nor the deuision of a Battaile knows<br />
+More then a Spinster. Vnlesse the Bookish Theoricke:<br />
+Wherein the Tongued Consuls can propose<br />
+As Masterly as he. Meere pratle (without practise)<br />
+Is all his Souldiership. But he (Sir) had th'election;<br />
+And I (of whom his eies had seene the proofe<br />
+At Rhodes, at Ciprus, and on others grounds<br />
+Christen'd, and Heathen) must be be-leed, and calm'd<br />
+By Debitor, and Creditor. This Counter-caster,<br />
+He (in good time) must his Lieutenant be.<br />
+And I (blesse the marke) his Mooreships Auntient.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+— Par le ciel, j’eusse préféré être son bourreau.</p>
+  </td>
+  <td class="en">
+<p>Rod.<br />
+By heauen, I rather would haue bin his hangman.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+— Pas de remède à cela ! C’est la plaie du service. — L’avancement se fait par
+apostille et par faveur, — et non d’après la vieille gradation, qui fait du
+second — l’héritier du premier. Maintenant, monsieur, jugez vous-même — si je
+suis engagé par de justes raisons — à aimer le More.</p>
+  </td>
+  <td class="en">
+<p>Iago.<br />
+Why, there's no remedie.<br />
+'Tis the cursse of Seruice;<br />
+Preferment goes by Letter, and affection,<br />
+And not by old gradation, where each second<br />
+Stood Heire to'th'first. Now Sir, be iudge your selfe,<br />
+Whether I in any iust terme am Affin'd<br />
+To loue the Moore?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+Moi, je ne resterais pas sous ses ordres.</p>
+  </td>
+  <td class="en">
+<p>Rod.<br />
+I would not follow him then.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+— Oh ! Rassurez-vous, monsieur. — Je n’y reste que pour servir mes projets sur
+lui. — Nous ne pouvons pas tous être les maîtres, et les maîtres — ne peuvent
+pas tous être fidèlement servis. Vous remarquerez — beaucoup de ces marauds
+humbles et agenouillés — qui, raffolant de leur obséquieux servage, —
+s’échinent, leur vie durant, comme l’âne de leur maître, — rien que pour avoir
+la pitance. Se font-ils vieux, on les chasse : — fouettez-moi ces honnêtes
+drôles !… Il en est d’autres — qui, tout en affectant les formes et les visages
+du dévouement, — gardent dans leur cœur la préoccupation d’eux-mêmes, — et qui,
+ne jetant à leur seigneur que des semblants de dévouement, — prospèrent à ses
+dépens, puis, une fois leurs habits bien garnis, — se font hommage à eux-mêmes.
+Ces gaillards-là ont quelque cœur, — et je suis de leur nombre, je le confesse.
+— En effet, seigneur, — aussi vrai que vous êtes Roderigo, — si j’étais le
+More, je ne voudrais pas être Iago. — En le servant, je ne sers que moi-même. —
+Ce n’est, le ciel m’est témoin, ni l’amour ni le devoir qui me font agir, —
+mais, sous leurs dehors, mon intérêt personnel. — Si jamais mon action visible
+révèle — l’acte et l’idée intimes de mon âme — par une démonstration
+extérieure, le jour ne sera pas loin — où je porterai mon cœur sur ma manche, —
+pour le faire becqueter aux corneilles… Je ne suis pas ce que je suis.</p>
+  </td>
+  <td class="en">
+<p>Iago.<br />
+O Sir content you.<br />
+I follow him, to serue my turne vpon him.<br />
+We cannot all be Masters, nor all Masters<br />
+Cannot be truely follow'd. You shall marke<br />
+Many a dutious and knee-crooking knaue;<br />
+That (doting on his owne obsequious bondage)<br />
+Weares out his time, much like his Masters,<br />
+For naught but Prouender, &amp; when he's old Casheer'd.<br />
+Whip me such honest knaues. Others there are<br />
+Who trym'd in Formes, and visages of Dutie,<br />
+Keepe yet their hearts attending on themselues,<br />
+And throwing but showes of Seruice on their Lords<br />
+Doe well thriue by them.<br />
+And when they haue lin'd their Coates<br />
+Doe themselues Homage.<br />
+These Fellowes haue some soule,<br />
+And such a one do I professe my selfe. For (Sir)<br />
+It is as sure as you are <em>Rodorigo</em>,<br />
+Were I the Moore, I would not be Iago:<br />
+In following him, I follow but my selfe.<br />
+Heauen is my Iudge, not I for loue and dutie,<br />
+But seeming so, for my peculiar end:<br />
+For when my outward Action doth demonstrate<br />
+The natiue act, and figure of my heart<br />
+In Complement externe, 'tis not long after<br />
+But I will weare my heart vpon my sleeue<br />
+For Dawes to pecke at; I am not what I am.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+Quel bonheur a l’homme aux grosses lèvres, — pour réussir ainsi&nbsp;!</p>
+  </td>
+  <td class="en">
+<p>Rod.<br />
+What a fall Fortune do's the Thicks-lips owe<br />
+If he can carry't thus?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+Appelez le père, — réveillez-le, et mettez-vous aux trousses de l’autre&nbsp;!
+Empoisonnez sa joie&nbsp;! — Criez son nom dans les rues&nbsp;! Mettez en feu les
+parents, — et, quoiqu’il habite sous un climat favorisé, — criblez-le de
+moustiques. Si son bonheur est encore du bonheur, — altérez-le du moins par
+tant de tourments — qu’il perde de son éclat&nbsp;!</p>
+
+  </td>
+  <td class="en">
+<p>Iago.<br />
+Call vp her Father:<br />
+Rowse him, make after him, poyson his delight,<br />
+Proclaime him in the Streets. Incense her kinsmen,<br />
+And though he in a fertile Clymate dwell,<br />
+Plague him with Flies: though that his Ioy be Ioy,<br />
+Yet throw such chances of vexation on't,<br />
+As it may loose some colour.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+— Voici la maison du père ; je vais l’appeler tout haut.</p>
+  </td>
+  <td class="en">
+<p>Rodo.<br />
+Heere is her Fathers house, Ile call aloud.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+— Oui, avec un accent d’effroi, avec un hurlement terrible, — comme quand, par
+une nuit de négligence, l’incendie — est signalé dans une cité populeuse.</p>
+  </td>
+  <td class="en">
+<p>Iago.<br />
+Doe, with like timerous accent, and dire yell,<br />
+As when (by Night and Negligence) the Fire<br />
+Is spied in populus Citties.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO, sous les fenêtres de la maison de Brabantio.<br />
+— Holà ! Brabantio ! Signor Brabantio ! Holà !</p>
+  </td>
+  <td class="en">
+<p>Rodo.<br />
+What hoa: Brabantio, Signior <em>Brabantio</em>, hoa.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+— Éveillez-vous ! Holà ! Brabantio ! Au voleur ! au voleur ! au voleur ! — Ayez
+l’œil sur votre maison, sur votre fille et sur vos sacs ! Au voleur ! au voleur !</p>
+  </td>
+  <td class="en">
+<p>Iago.<br />
+Awake: what hoa, <em>Brabantio</em>: Theeues, Theeues.<br />
+Looke to your house, your daughter, and your Bags,<br />
+Theeues, Theeues.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO, paraissant à une fenêtre.<br />
+— Quelle est la raison de cette terrible alerte ? — De quoi s’agit-il ?</p>
+  </td>
+  <td class="en">
+<p>Bra. Aboue.<br />
+What is the reason of this terrible<br />
+Summons? What is the matter there?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+— Signor, toute votre famille est-elle chez vous ?</p>
+
+  </td>
+  <td class="en">
+<p>Rodo.<br />
+Signior is all your Familie within?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+— Vos portes sont-elles fermées ?</p>
+  </td>
+  <td class="en">
+<p>Iago.<br />
+Are your Doores lock'd?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+Pourquoi ? Dans quel but me demandez-vous cela ?</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+Why? Wherefore ask you this?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+— Sang-dieu ! monsieur, vous êtes volé. Par pudeur, passez votre robe ! — Votre
+cœur est déchiré : vous avez perdu la moitié de votre âme ! — Juste en ce
+moment, en ce moment, en ce moment même, un vieux bélier noir — est monté sur
+votre blanche brebis. Levez-vous, levez-vous ! — Éveillez à son de cloche les
+citoyens en train de ronfler, — ou autrement le diable va faire de vous un
+grand-papa. — Levez-vous, vous dis-je.</p>
+  </td>
+  <td class="en">
+<p>Iago.<br />
+Sir, y'are rob'd, for shame put on your Gowne,<br />
+Your heart is burst, you haue lost halfe your soule<br />
+Euen now, now, very now, an old blacke Ram<br />
+Is tupping your white Ewe. Arise, arise,<br />
+Awake the snorting Cittizens with the Bell,<br />
+Or else the deuill will make a Grand-sire of you.<br />
+Arise I say.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+Quoi donc ? Avez-vous perdu l’esprit ?</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+What, haue you lost your wits?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.
+— Très révérend signor, est-ce que vous ne reconnaissez pas ma voix&nbsp;?</p>
+  </td>
+  <td class="en">
+<p>Rod.<br />
+Most reuerend Signior, do you know my voice?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+— Non. Qui êtes-vous ?</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+Not I: what are you?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+— Mon nom est Roderigo.</p>
+  </td>
+  <td class="en">
+<p>Rod.<br />
+My name is <em>Rodorigo</em>.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+Tu n’en es que plus mal venu. — Je t’ai défendu de rôder autour de ma porte ; —
+tu m’as entendu dire en toute franchise — que ma fille n’est pas pour toi ; et
+voici qu’en pleine folie, — rempli du souper et des boissons qui te dérangent,
+— tu viens, par une méchante bravade, — alarmer mon repos.</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+The worsser welcome:<br />
+I haue charg'd thee not to haunt about my doores:<br />
+In honest plainenesse thou hast heard me say,<br />
+My Daughter is not for thee. And now in madnesse<br />
+(Being full of Supper, and distempring draughtes)<br />
+Vpon malitious knauerie, dost thou come<br />
+To start my quiet.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+— Monsieur ! Monsieur ! Monsieur ! Monsieur !</p>
+  </td>
+  <td class="en">
+<p>Rod.<br />
+Sir, Sir, Sir.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+Mais tu peux être sûr — que ma colère et mon pouvoir sont assez forts — pour te
+faire repentir de ceci.</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+But thou must needs be sure,<br />
+My spirits and my place haue in their power<br />
+To make this bitter to thee.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+Patience, mon bon monsieur.</p>
+  </td>
+  <td class="en">
+<p>Rodo.<br />
+Patience good Sir.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+— Que me parlais-tu de vol ? Nous sommes ici à Venise : — ma maison n’est point
+une grange abandonnée.</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+What tell'st thou me of Robbing?<br />
+This is Venice: my house is not a Grange.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+Très grave Brabantio, — je viens à vous, dans toute la simplicité d’une âme
+pure. —</p>
+  </td>
+  <td class="en">
+<p>Rodo.<br />
+Most graue Brabantio,<br />
+In simple and pure soule, I come to you.</p>
+  </td>
+</tr>
+
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+Pardieu, monsieur vous êtes de ces gens qui refuseraient de servir Dieu, si le
+diable le leur disait. Parce que nous venons vous rendre un service, vous nous
+prenez pour des chenapans et vous laissez couvrir votre fille par un cheval de
+Barbarie&nbsp;! Vous voulez avoir des étalons pour cousins et des genets pour
+alliés&nbsp;!</p>
+  </td>
+  <td class="en">
+<p>Ia.<br />
+Sir: you are one of those that will not serue God, if the deuill bid you.
+Because we come to do you seruice, and you thinke we are Ruffians, you'le haue
+your Daughter couer'd with a Barbary horse, you'le haue your Nephewes neigh to
+you, you'le haue Coursers for Cozens: and Gennets for Germaines.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+Quel misérable païen es-tu donc, toi ?</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+What prophane wretch art thou?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+Je suis, monsieur, quelqu’un qui vient vous dire que votre fille et le More
+sont en train de faire la bête à deux dos.</p>
+  </td>
+  <td class="en">
+<p>Ia.<br />
+I am one Sir, that comes to tell you, your Daughter and the Moore, are making
+the Beast with two backs.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+— Tu es un manant.</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+Thou art a Villaine.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO.<br />
+vous êtes… un sénateur.</p>
+  </td>
+  <td class="en">
+<p>Iago.<br />
+You are a Senator.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO, à Roderigo.<br />
+— Tu me répondras de ceci ! Je te connais, toi, Roderigo !</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+This thou shalt answere. I know thee Rodorigo.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+— Monsieur, je vous répondrai de tout. Mais, de grâce, une question. — Est-ce
+d’après votre désir et votre consentement réfléchi, — comme je commence à le
+croire, que votre charmante fille, — à cette heure indue, par une nuit si
+épaisse, — est allée, sous la garde pure et simple — d’un maraud de louage,
+d’un gondolier, — se livrer aux étreintes grossières d’un More lascif ? — Si
+cela est connu et permis par vous, — alors nous avons eu envers vous le tort
+d’une impudente indiscrétion. — Mais, si cela se passe à votre insu, mon
+savoir-vivre me dit — que nous recevons à tort vos reproches. Ne croyez — pas
+que, m’écartant de toute civilité, — j’aie voulu jouer et plaisanter avec votre
+honneur ! — Votre fille, si vous ne l’avez pas autorisée, — je le répète, a
+fait une grosse révolte, — en attachant ses devoirs, sa beauté, son esprit, sa
+fortune, — à un vagabond, à un étranger qui à roulé — ici et partout.
+Édifiez-vous par vous-même tout de suite. — Si elle est dans sa chambre et
+dans votre maison, — faites tomber sur moi la justice de l’État — pour vous
+avoir ainsi abusé.</p>
+  </td>
+  <td class="en">
+<p>Rod.<br />
+Sir, I will answere any thing. But I beseech you<br />
+If't be your pleasure, and most wise consent,<br />
+(As partly I find it is) that your faire Daughter,<br />
+At this odde Euen and dull watch o'th'night<br />
+Transported with no worse nor better guard,<br />
+But with a knaue of common hire, a Gundelier,<br />
+To the grosse claspes of a Lasciuious Moore:<br />
+If this be knowne to you, and your Allowance,<br />
+We then haue done you bold, and saucie wrongs.<br />
+But if you know not this, my Manners tell me,<br />
+We haue your wrong rebuke. Do not beleeue<br />
+That from the sence of all Ciuilitie,<br />
+I thus would play and trifle with your Reuerence.<br />
+Your Daughter (if you haue not giuen her leaue)<br />
+I say againe, hath made a grosse reuolt,<br />
+Tying her Dutie, Beautie, Wit, and Fortunes<br />
+In an extrauagant, and wheeling Stranger,<br />
+Of here, and euery where: straight satisfie your selfe.<br />
+If she be in her Chamber, or your house,<br />
+Let loose on me the Iustice of the State<br />
+For thus deluding you.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO, à l’intérieur.<br />
+Battez le briquet ! holà ! — Donnez moi un flambeau ! Appelez tous mes gens !…
+— Cette aventure n’est pas en désaccord avec mon rêve ; — la croyance à sa
+réalité m’oppresse déjà. — De la lumière, dis-je ! de la lumière !</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+Strike on the Tinder, hoa:<br />
+Giue me a Taper: call vp all my people,<br />
+This Accident is not vnlike my dreame,<br />
+Beleefe of it oppresses me alreadie.<br />
+Light, I say, light.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Il se retire de la fenêtre.</p>
+  </td>
+  <td class="en">
+<p>Exit.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>IAGO, à Roderigo.<br />
+— Adieu. Il faut que je vous quitte. — Il ne me paraît ni opportun, ni sain,
+dans mon emploi, — d’être assigné, comme je le serais — en restant, pour
+déposer contre le More ; car, je le sais bien, — quoique ceci puisse lui
+attirer quelque cuisante mercuriale, — l’État ne peut pas se défaire de lui
+sans danger. Il est engagé, — par des raisons si impérieuses, dans la guerre de
+Chypre — qui se poursuit maintenant, que, s’agit-il du salut de leurs âmes, —
+nos hommes d’État n’en trouveraient pas un autre à sa taille — pour mener leurs
+affaires. En conséquence, — bien que je le haïsse à l’égal des peines de
+l’enfer — je dois, pour les nécessités du moment, — arborer les couleurs,
+l’enseigne de l’affection, — pure enseigne, en effet !… Afin de le découvrir
+sûrement, — dirigez les recherches vers le Sagittaire (19). — Je serai là avec
+lui. Adieu donc !</p>
+  </td>
+  <td class="en">
+<p>Iag.<br />
+Farewell: for I must leaue you.<br />
+It seemes not meete, nor wholesome to my place<br />
+To be producted, (as if I stay, I shall,)<br />
+Against the Moore. For I do know the State,<br />
+(How euer this may gall him with some checke)<br />
+Cannot with safetie cast him. For he's embark'd<br />
+With such loud reason to the Cyprus Warres,<br />
+(Which euen now stands in Act) that for their soules<br />
+Another of his Fadome, they haue none,<br />
+To lead their Businesse. In which regard,<br />
+Though I do hate him as I do hell apines,<br />
+Yet, for necessitie of present life,<br />
+I must show out a Flag, and signe of Loue,<br />
+(Which is indeed but signe) that you shal surely find him<br />
+Lead to the Sagitary the raised Search:<br />
+And there will I be with him. So farewell.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Il s’en va.</p>
+  </td>
+  <td class="en">
+<p>Exit.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Brabantio arrive suivi de gens portant des torches.</p>
+  </td>
+  <td class="en">
+<p>Enter Brabantio, with Seruants and Torches.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+— Le mal n’est que trop vrai : elle est partie ! — Et ce qui me reste d’une vie
+méprisable — n’est plus qu’amertume… Maintenant, Roderigo, — où l’as-tu vue ?…
+Oh ! malheureuse fille ! — Avec le More, dis-tu ?… Qui voudrait être père, à
+présent ? — Comment l’as-tu reconnue ?… Oh ! elle m’a trompée — incroyablement
+!… Que t’a-t-elle dit, à toi !… D’autres flambeaux ! — Qu’on réveille tous mes
+parents !… Sont-ils mariés, crois-tu ?</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+It is too true an euill. Gone she is,<br />
+And what's to come of my despised time,<br />
+Is naught but bitternesse. Now Rodorigo,<br />
+Where didst thou see her? (Oh vnhappie Girle)<br />
+With the Moore saist thou? (Who would be a Father?)<br />
+How didst thou know 'twas she? (Oh she deceaues me<br />
+Past thought:) what said she to you? Get moe Tapers:<br />
+Raise all my Kindred. Are they married thinke you?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+— Oui, sans doute, je le crois.</p>
+  </td>
+  <td class="en">
+<p>Rodo.<br />
+Truely I thinke they are.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+— Ciel ! comment a-t-elle échappé ? Ô trahison du sang ! — Pères, à l’avenir,
+ne vous rassurez pas sur l’esprit de vos filles, — d’après ce que vous leur
+verrez faire… N’y a-t-il pas de sortiléges — au moyen desquels les facultés de
+la jeunesse et de la virginité — peuvent être déçues ? N’as-tu pas lu,
+Roderigo, — quelque chose comme cela ?</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+Oh Heauen: how got she out?<br />
+Oh treason of the blood.<br />
+Fathers, from hence trust not your Daughters minds<br />
+By what you see them act. Is there not Charmes,<br />
+By which the propertie of Youth, and Maidhood<br />
+May be abus'd? Haue you not read Rodorigo,<br />
+Of some such thing?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+Oui, monsieur, certainement.</p>
+  </td>
+  <td class="en">
+<p>Rod.<br />
+Yes Sir: I haue indeed.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+— Éveillez mon frère !… Que ne te l’ai-je donnée ! — Que ceux-ci prennent une
+route, ceux-là, une autre&nbsp;!<br />
+À Roderigo.<br />
+Savez-vous — où nous pourrions les surprendre, elle et le More ?</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+Call vp my Brother: oh would you had had her.<br />
+Some one way, some another. Doe you know<br />
+Where we may apprehend her, and the Moore?</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>RODERIGO.<br />
+— Je crois que je puis le découvrir, si vous voulez — prendre une bonne escorte
+et venir avec moi.</p>
+  </td>
+  <td class="en">
+<p>Rod.<br />
+I thinke I can discouer him, if you please<br />
+To get good Guard, and go along with me.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>BRABANTIO.<br />
+— De grâce, conduisez-nous. Je vais frapper à toutes les maisons ; — je puis
+faire sommation, au besoin.<br />
+À ses gens.<br />
+Armez-vous, holà ! — et appelez des officiers de nuit spéciaux ! — En avant,
+mon bon Roderigo, je vous dédommagerai de vos peines.</p>
+  </td>
+  <td class="en">
+<p>Bra.<br />
+Pray you lead on. At euery house Ile call,<br />
+(I may command at most) get Weapons (hoa)<br />
+And raise some speciall Officers of might:<br />
+On good Rodorigo, I will deserue your paines.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Tous s’en vont.</p>
+  </td>
+  <td class="en">
+<p>Exeunt.</p>
+  </td>
+</tr>
+
+</table>
+
+</body>
+</html>
