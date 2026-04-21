@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>War and Peace, by Leo Tolstoy</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+
+<style type="text/css" media="screen">
+body {
+  color:#BBC;
+  background:#EEE;
+  padding:1em 1em 3em 2em;
+  margin:0;
+}
+td {
+  border:1px solid #ABC;
+  padding:0;
+  margin:1px;
+}
+p { padding:0; text-indent:1.2em; }
+
+h1 { font-size:1.3em; padding-left:0.1em; }
+h2 { font-size:1.1em; padding-left:1.0em; }
+h3 { font-size:0.8em; padding-left:2.4em; }
+h4 { font-size:0.9em; padding-left:0.5em; }
+h5 { font-size:1.0em; padding-left:0.5em; }
+
+td.en p, td.en h1, td.en h2, td.en h3 { margin:0.4em 1.6em 0.4em 0.8em; color:#420; }
+td.fr p, td.fr h1, td.fr h2, td.fr h3 { margin:0.4em 0.8em 0.4em 1.6em; color:#024; }
+
+td.en, td.en a { color:#420; }
+td.fr, td.fr a { color:#024; }
+
+td.en a:hover { background:#FFF; }
+td.fr a:hover { background:#FFF; }
+
+h4.en, h5.en { margin:0.4em 1.6em 0.4em 0.8em; color:#420; }
+h4.fr, h5.fr { margin:0.4em 0.8em 0.4em 1.6em; color:#024; }
+
+h6.en { margin:0.4em 1.8em 0.4em 3.2em; color:#420; }
+h6.fr { margin:0.4em 0.6em 0.4em 4.2em; color:#024; }
+
+table {
+  width:80%;
+  margin-bottom:2em;
+}
+td {
+  width:50%;
+  vertical-align:top;
+}
+
+@media (min-width: 641px) {
+  table {
+    min-width:700px;
+    max-width:1100px;
+  }
+}
+
+@media (max-width: 640px) {
+  table { width:100%; margin:0; }
+  body {
+    padding:1em 1px 3em 1px;
+    margin:0;
+  }
+  td.en p { margin:0; }
+  td.fr p { margin:0; }
+}
+
+div.prev a:link { text-decoration:none; }
+div.next a:link { text-decoration:none; }
+
+div.prev { margin-left:1.8em; }
+div.next { margin-right:1.8em; text-align:right; }
+
+div.prev a, div.next a { font-size:1.4em; }
+</style>
+
+<style type="text/css" media="print">
+body { background:#FFF; color:#000; }
+a { text-decoration:none; color:#000; }
+h1, h2, h3, h4, h5, h6 { color:#000; }
+td {
+  border:1px solid #000;
+  padding:0;
+  margin:1px;
+}
+td {
+  width:50%;
+  vertical-align: top;
+}
+td.en p { margin:0.2em 0.6em 0.2em 0.4em; }
+td.fr p { margin:0.2em 0.4em 0.2em 0.6em; }
+td p { font-size:0.8em; text-indent:0.8em; }
+div.prev a, div.next a { display:none; }
+</style>
+
+</head>
+<body>
+
+<!--
+  From:
+    https://fr.wikisource.org/wiki/Guerre_et_Paix_(trad._Pask%C3%A9vitch)
+    https://en.wikisource.org/wiki/War_and_Peace_(Tolstoy)
+  Page:
+    https://en.wikisource.org/wiki/War_and_Peace_(Tolstoy)/Book_2/Chapter_10
+    https://fr.wikisource.org/wiki/Guerre_et_Paix_(trad._Pask%C3%A9vitch)/Partie_1/Chapitre_2 #IX
+-->
+
+<table>
+
+<tr id="title">
+  <td class="fr">
+    <h1 class="fr">Guerre et Paix</h1>
+  </td>
+  <td class="en">
+    <h1 class="en">War and Peace</h1>
+  </td>
+</tr>
+
+<tr id="author">
+  <td class="fr">
+    <h2 class="fr">de Léon Tolstoï</h2>
+  </td>
+  <td class="en">
+    <h2 class="en">by Leo Tolstoy</h2>
+  </td>
+</tr>
+
+<tr id="translator">
+  <td class="fr">
+    <h3 class="fr">Traduction par Irène Paskévitch</h3>
+  </td>
+  <td class="en">
+    <h3 class="en">translated by Louise and Aylmer Maude</h3>
+  </td>
+</tr>
+
+<tr id="II_Chapter_10">
+  <td class="fr">
+    <h4 class="fr">Deuxième Partie<br />Chapitre X</h4>
+  </td>
+  <td class="en">
+    <h4 class="en">Book Two<br />Chapter 10</h4>
+  </td>
+</tr>
+
+<!-- fr-is IX, re-nam'd for match'ng w/ -en -->
+
+<tr>
+  <td class="fr">
+<p>Le prince André descendit à Brünn chez une de ses connaissances russes, le
+diplomate Bilibine.</p>
+  </td>
+  <td class="en">
+<p>Prince Andrew stayed at Brünn with Bilíbin, a Russian acquaintance of his in
+the diplomatic service.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>« Ah ! cher prince, rien ne pouvait m’être plus agréable, lui dit son hôte en
+allant à sa rencontre… Franz, portez les effets du prince dans ma chambre à
+coucher, ajouta-t-il en s’adressant au domestique qui conduisait Bolkonsky…
+Vous êtes le messager d’une victoire, c’est parfait&nbsp;; quant à moi, je suis
+malade, comme vous le voyez.&nbsp;»
+</p>
+  </td>
+  <td class="en">
+<p>“Ah, my dear prince! I could not have a more welcome visitor,” said Bilíbin as
+he came out to meet Prince Andrew. “Franz, put the prince’s things in my
+bedroom,” said he to the servant who was ushering Bolkónski in. “So you’re a
+messenger of victory, eh? Splendid! And I am sitting here ill, as you see.”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Après avoir fait sa toilette, le prince André rejoignit le diplomate dans un
+élégant cabinet, où il se mit à table devant le dîner qu’on venait de lui
+préparer, pendant que son hôte s’asseyait au coin de la cheminée.</p>
+  </td>
+  <td class="en">
+<p>After washing and dressing, Prince Andrew came into the diplomat’s luxurious
+study and sat down to the dinner prepared for him. Bilíbin settled down
+comfortably beside the fire.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Le prince André retrouvait avec plaisir, dans ce milieu, les éléments
+d’élégance et de confort auxquels il était habitué depuis son enfance, et qui
+lui avaient si souvent manqué dans ces derniers temps. Il lui était agréable,
+après la réception autrichienne, de pouvoir parler, non pas en russe, car ils
+causaient en français, mais avec un Russe, qui partageait, il fallait le
+supposer, l’aversion très vive qu’inspiraient généralement alors les
+Autrichiens.</p>
+  </td>
+  <td class="en">
+<p>After his journey and the campaign during which he had been deprived of all the
+comforts of cleanliness and all the refinements of life, Prince Andrew felt a
+pleasant sense of repose among luxurious surroundings such as he had been
+accustomed to from childhood. Besides it was pleasant, after his reception by
+the Austrians, to speak if not in Russian (for they were speaking French) at
+least with a Russian who would, he supposed, share the general Russian
+antipathy to the Austrians which was then particularly strong.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Bilibine avait trente-cinq ans environ&nbsp;; il était garçon, et appartenait au
+même cercle de société que le prince André. Après s’être connus à Pétersbourg,
+ils s’étaient retrouvés et rapprochés, pendant le séjour qu’André avait fait à
+Vienne à la suite de son général. Ils avaient tous deux les qualités requises
+pour parcourir, chacun dans sa spécialité, une rapide et brillante carrière.
+Bilibine, quoique jeune, n’était plus un jeune diplomate, car, depuis l’âge de
+seize ans, il était dans la carrière. Arrivé à Vienne, après avoir passé par
+Paris et Copenhague, il y occupait une position importante. Le chancelier et
+notre ambassadeur en Autriche faisaient cas de sa capacité, et l’appréciaient.
+Il ne ressemblait en rien à ces diplomates dont les qualités sont négatives,
+dont toute la science consiste à ne pas se compromettre et à parler français&nbsp;:
+il était de ceux qui aiment le travail, et, malgré une certaine paresse native,
+il lui arrivait souvent de passer la nuit à son bureau. L’objet de son travail
+lui était indifférent&nbsp;: ce qui l’intéressait, ce n’était pas le pourquoi, mais
+le comment, et il trouvait un plaisir tout particulier à composer, d’une façon
+ingénieuse, élégante et habile, n’importe quels mémorandums, rapports ou
+circulaires. Outre les services qu’il rendait la plume à la main, on lui
+reconnaissait encore le talent de savoir se conduire et de parler à propos dans
+les hautes sphères.</p>
+  </td>
+  <td class="en">
+<p>Bilíbin was a man of thirty-five, a bachelor, and of the same circle as Prince
+Andrew. They had known each other previously in Petersburg, but had become more
+intimate when Prince Andrew was in Vienna with Kutúzov. Just as Prince Andrew
+was a young man who gave promise of rising high in the military profession, so
+to an even greater extent Bilíbin gave promise of rising in his diplomatic
+career. He was still a young man but no longer a young diplomat, as he had
+entered the service at the age of sixteen, had been in Paris and Copenhagen,
+and now held a rather important post in Vienna. Both the foreign minister and
+our ambassador in Vienna knew him and valued him. He was not one of those many
+diplomats who are esteemed because they have certain negative qualities, avoid
+doing certain things, and speak French. He was one of those, who, liking work,
+knew how to do it, and despite his indolence would sometimes spend a whole
+night at his writing table. He worked equally well whatever the import of his
+work. It was not the question “What for?” but the question “How?” that
+interested him. What the diplomatic matter might be he did not care, but it
+gave him great pleasure to prepare a circular, memorandum, or report,
+skillfully, pointedly, and elegantly. Bilíbin’s services were valued not only
+for what he wrote, but also for his skill in dealing and conversing with those
+in the highest spheres.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Bilibine n’aimait la causerie que lorsqu’elle lui offrait l’occasion de dire
+quelque chose de remarquable et de la parsemer de ces traits brillants et
+originaux, de ces phrases fines et acérées, qui, préparées à l’avance dans son
+laboratoire intime, étaient si faciles à retenir, qu’elles restaient gravées
+même dans les cervelles les plus dures&nbsp;; c’est, ainsi que les mots de
+Bilibine se colportaient dans les salons de Vienne et influaient parfois sur
+les événements.</p>
+  </td>
+  <td class="en">
+<p>Bilíbin liked conversation as he liked work, only when it could be made
+elegantly witty. In society he always awaited an opportunity to say something
+striking and took part in a conversation only when that was possible. His
+conversation was always sprinkled with wittily original, finished phrases of
+general interest. These sayings were prepared in the inner laboratory of his
+mind in a portable form as if intentionally, so that insignificant society
+people might carry them from drawing room to drawing room. And, in fact,
+Bilíbin’s witticisms were hawked about in the Viennese drawing rooms and often
+had an influence on matters considered important.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Son visage jaune, maigre et fatigué était creusé de plis&nbsp;; chacun de ces plis
+était si soigneusement lavé, qu’il rappelait l’aspect du bout des doigts
+lorsqu’ils ont fait un long séjour dans l’eau&nbsp;; le jeu de sa physionomie
+consistait dans le mouvement perpétuel de ces plis. Tantôt c’était son front
+qui se ridait, tantôt ses sourcils qui s’élevaient ou s’abaissaient tour à
+tour, ou bien ses joues qui se fronçaient. Un regard toujours gai et franc
+partait de ses petits yeux enfoncés.</p>
+  </td>
+  <td class="en">
+<p>His thin, worn, sallow face was covered with deep wrinkles, which always looked
+as clean and well washed as the tips of one’s fingers after a Russian bath. The
+movement of these wrinkles formed the principal play of expression on his face.
+Now his forehead would pucker into deep folds and his eyebrows were lifted,
+then his eyebrows would descend and deep wrinkles would crease his cheeks. His
+small, deep-set eyes always twinkled and looked out straight.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>« Eh bien, racontez-moi vos exploits&nbsp;!&nbsp;»</p>
+  </td>
+  <td class="en">
+<p>“Well, now tell me about your exploits,” said he.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Bolkonsky lui narra aussitôt, sans se mettre en avant, les détails de l’affaire
+et la réception du ministre&nbsp;: «&nbsp;Ils m’ont reçu, moi et ma nouvelle, comme un
+chien dans un jeu de quilles.&nbsp;»</p>
+  </td>
+  <td class="en">
+<p>Bolkónski, very modestly without once mentioning himself, described the
+engagement and his reception by the Minister of War.</p>
+<p>“They received me and my news as one receives a dog in a game of skittles,”
+said he in conclusion.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Bilibine sourit, et ses rides se détendirent.</p>
+  </td>
+  <td class="en">
+<p>Bilíbin smiled and the wrinkles on his face disappeared.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>« Cependant, mon cher, dit-il en regardant ses ongles à distance, et en
+plissant sa peau sous l’œil gauche, malgré la haute estime que je professe pour
+les armées russo-orthodoxes, il me semble que cette victoire n’est pas des plus
+victorieuses.&nbsp;»</p>
+  </td>
+  <td class="en">
+<p>“Cependant, mon cher,” he remarked, examining his nails from a distance and
+puckering the skin above his left eye, “malgré la haute estime que je professe
+pour the Orthodox Russian army, j’avoue que votre victoire n’est pas des plus
+victorieuses.”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Il continuait à parler français, ne prononçant en russe que certains mots qu’il
+voulait souligner d’une façon dédaigneuse&nbsp;:</p>
+  </td>
+  <td class="en">
+<p>He went on talking in this way in French, uttering only those words in Russian
+on which he wished to put a contemptuous emphasis.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>« Comment&nbsp;! vous avez écrasé de tout votre poids le malheureux Mortier,
+qui n’avait qu’une division, et ce Mortier vous échappe&nbsp;!… Où est donc votre
+victoire&nbsp;?</p>
+  </td>
+  <td class="en">
+<p>“Come now! You with all your forces fall on the unfortunate Mortier and his one
+division, and even then Mortier slips through your fingers! Where’s the
+victory?”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Sans nous vanter, vous avouerez pourtant que cela vaut mieux qu’Ulm&nbsp;?…</p>
+  </td>
+  <td class="en">
+<p>“But seriously,” said Prince Andrew, “we can at any rate say without boasting
+that it was a little better than at Ulm…”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Pourquoi n’avoir pas fait prisonnier un maréchal, un seul maréchal&nbsp;?</p>
+  </td>
+  <td class="en">
+<p>“Why didn’t you capture one, just one, marshal for us?”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Parce que les événements n’arrivent pas selon notre volonté et ne se règlent
+pas d’avance comme une parade&nbsp;! Nous avions espéré le tourner vers les sept
+heures du matin, et nous n’y sommes arrivés qu’à cinq heures du soir.</p>
+  </td>
+  <td class="en">
+<p>“Because not everything happens as one expects or with the smoothness of a
+parade. We had expected, as I told you, to get at their rear by seven in the
+morning but had not reached it by five in the afternoon.”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Pourquoi n’y êtes-vous pas arrivés à sept heures&nbsp;? Il fallait y arriver.</p>
+<p>— Pourquoi n’avez-vous pas soufflé à Bonaparte, par voie diplomatique, qu’il
+ferait bien d’abandonner Gênes&nbsp;? reprit le prince André du même ton de
+raillerie.</p>
+  </td>
+  <td class="en">
+<p>“And why didn’t you do it at seven in the morning? You ought to have been there
+at seven in the morning,” returned Bilíbin with a smile. “You ought to have
+been there at seven in the morning.”</p>
+<p>“Why did you not succeed in impressing on Bonaparte by diplomatic methods that
+he had better leave Genoa alone?” retorted Prince Andrew in the same tone.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Oh ! je sais bien, repartit Bilibine… vous vous dites qu’il est très facile
+de faire prisonniers des maréchaux au coin de son feu&nbsp;; c’est vrai, et
+pourtant, pourquoi ne l’avez-vous pas fait&nbsp;? Ne vous étonnez donc pas que, à
+l’exemple du ministre de la guerre, notre auguste Empereur et le roi Franz ne
+vous soient pas bien reconnaissants de cette victoire&nbsp;; et moi-même, infime
+secrétaire de l’ambassade de Russie, je n’éprouve pas un besoin irrésistible de
+témoigner mon enthousiasme, en donnant un thaler à mon Franz, avec la
+permission d’aller se promener avec sa « Liebchen » au Prater… J’oublie qu’il
+n’y a pas de Prater ici.&nbsp;» Il regarda le prince André et déplissa subitement
+son front.</p>
+  </td>
+  <td class="en">
+<p>“I know,” interrupted Bilíbin, “you’re thinking it’s very easy to take
+marshals, sitting on a sofa by the fire! That is true, but still why didn’t you
+capture him? So don’t be surprised if not only the Minister of War but also his
+Most August Majesty the Emperor and King Francis is not much delighted by your
+victory. Even I, a poor secretary of the Russian Embassy, do not feel any need
+in token of my joy to give my Franz a thaler, or let him go with his Liebchen
+to the Prater…. True, we have no Prater here…”</p>
+<p>He looked straight at Prince Andrew and suddenly unwrinkled his forehead.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>« Alors, mon cher, c’est à mon tour de vous demander pourquoi&nbsp;? Je ne le
+comprends pas, je l’avoue&nbsp;; peut-être y a-t-il là-dessous quelques finesses
+diplomatiques qui dépassent ma faible intelligence&nbsp;? Le fait est que je n’y
+comprends rien&nbsp;: Mack perd une armée entière, l’archiduc Ferdinand et
+l’archiduc Charles s’abstiennent de donner signe de vie et commettent faute sur
+faute. Koutouzow seul gagne franchement une bataille, rompt le charme français,
+et le ministre de la guerre ne désire même pas connaître les détails de la
+victoire.</p>
+  </td>
+  <td class="en">
+<p>“It is now my turn to ask you ‘why?’ mon cher,” said Bolkónski. “I confess I do
+not understand: perhaps there are diplomatic subtleties here beyond my feeble
+intelligence, but I can’t make it out. Mack loses a whole army, the Archduke
+Ferdinand and the Archduke Karl give no signs of life and make blunder after
+blunder. Kutúzov alone at last gains a real victory, destroying the spell of
+the invincibility of the French, and the Minister of War does not even care to
+hear the details.”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— C’est là le nœud de la question ! Voyez-vous, mon cher, hourra pour le czar,
+pour la Russie, pour la foi&nbsp;! Tout cela est bel et bon&nbsp;; mais que nous
+importent, je veux dire qu’importent à la cour d’Autriche toutes vos victoires&nbsp;!
+Apportez-nous une bonne petite nouvelle du succès d’un archiduc Charles ou
+d’un archiduc Ferdinand, l’un vaut l’autre, comme vous le savez&nbsp;; mettons, si
+vous voulez, un succès remporté sur une compagnie des pompiers de Bonaparte, ce
+serait autre chose, et on l’aurait proclamé à son de trompe&nbsp;; mais ceci ne peut
+que nous déplaire. Comment&nbsp;! l’archiduc Charles ne fait rien, l’archiduc
+Ferdinand se couvre de honte, vous abandonnez Vienne sans défense aucune, tout
+comme si vous nous disiez&nbsp;: Dieu est avec nous&nbsp;! mais que le bon Dieu vous
+bénisse, vous et votre capitale… Vous faites tuer Schmidt, un général que nous
+aimons tous, et vous vous félicitez de la victoire&nbsp;? On ne saurait rien
+inventer de plus irritant que cela&nbsp;! C’est comme un fait exprès, comme un fait
+exprès&nbsp;! Et puis, que vous remportiez effectivement un brillant succès, que
+l’archiduc Charles même en ait un de son côté, cela changerait-il quelque chose
+à la marche générale des affaires&nbsp;? Maintenant il est trop tard&nbsp;: Vienne est
+occupée par les troupes françaises&nbsp;!</p>
+  </td>
+  <td class="en">
+<p>“That’s just it, my dear fellow. You see it’s hurrah for the Tsar, for Russia,
+for the Orthodox Greek faith! All that is beautiful, but what do we, I mean the
+Austrian court, care for your victories? Bring us nice news of a victory by the
+Archduke Karl or Ferdinand (one archduke’s as good as another, as you know) and
+even if it is only over a fire brigade of Bonaparte’s, that will be another
+story and we’ll fire off some cannon! But this sort of thing seems done on
+purpose to vex us. The Archduke Karl does nothing, the Archduke Ferdinand
+disgraces himself. You abandon Vienna, give up its defense—as much as to say:
+‘Heaven is with us, but heaven help you and your capital!’ The one general whom
+we all loved, Schmidt, you expose to a bullet, and then you congratulate us on
+the victory! Admit that more irritating news than yours could not have been
+conceived. It’s as if it had been done on purpose, on purpose. Besides, suppose
+you did gain a brilliant victory, if even the Archduke Karl gained a victory,
+what effect would that have on the general course of events? It’s too late now
+when Vienna is occupied by the French army!”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Comment, occupée ? Vienne est occupée ?</p>
+  </td>
+  <td class="en">
+<p>“What? Occupied? Vienna occupied?”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Non seulement occupée, mais Bonaparte est à Schœnbrünn, et notre aimable
+comte Wrbna s’y rend pour prendre ses ordres.&nbsp;»</p>
+  </td>
+  <td class="en">
+<p>“Not only occupied, but Bonaparte is at Schönbrunn, and the count, our dear
+Count Vrbna, goes to him for orders.”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>À cause de sa fatigue, des différentes impressions de son voyage et de sa
+réception par le ministre, à cause surtout de l’influence du dîner, Bolkonsky
+commençait à sentir confusément qu’il ne saisissait pas bien toute la gravité
+de ces nouvelles.</p>
+  </td>
+  <td class="en">
+<p>After the fatigues and impressions of the journey, his reception, and
+especially after having dined, Bolkónski felt that he could not take in the
+full significance of the words he heard.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>« Le comte Lichtenfeld, que j’ai vu ce matin, continua Bilibine, m’a montré une
+lettre pleine de détails sur une revue des Français à Vienne, sur le prince
+Murat et tout son tremblement. Vous voyez donc bien que votre victoire n’a rien
+de bien réjouissant et qu’on ne saurait vous recevoir en sauveur&nbsp;!</p>
+  </td>
+  <td class="en">
+<p>“Count Lichtenfels was here this morning,” Bilíbin continued, “and showed me a
+letter in which the parade of the French in Vienna was fully described: Prince
+Murat et tout le tremblement… You see that your victory is not a matter for
+great rejoicing and that you can’t be received as a savior.”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Je vous assure que, pour ma part, j’y suis très indifférent, reprit le prince
+André, qui commençait à se rendre compte du peu de valeur de l’engagement de
+Krems, en comparaison d’un événement aussi important que l’occupation d’une
+capitale&nbsp;: «&nbsp;Comment&nbsp;? Vienne est occupée&nbsp;? Comment, et la
+fameuse tête de pont, et le prince Auersperg, qui était chargé de la défense de
+Vienne&nbsp;?</p>
+  </td>
+  <td class="en">
+<p>“Really I don’t care about that, I don’t care at all,” said Prince Andrew,
+beginning to understand that his news of the battle before Krems was really of
+small importance in view of such events as the fall of Austria’s capital. “How
+is it Vienna was taken? What of the bridge and its celebrated bridgehead and
+Prince Auersperg? We heard reports that Prince Auersperg was defending Vienna?”
+he said.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Le prince Auersperg est de notre côté, pour notre défense, et s’en acquitte
+assez mal, et Vienne est de l’autre côté ; quant au pont, il n’est pas encore
+pris et ne le sera pas, je l’espère&nbsp;; il est miné, avec ordre de le faire
+sauter&nbsp;; sans cela nous serions déjà dans les montagnes de la Bohême et vous
+auriez passé, vous et votre armée, un vilain quart d’heure entre deux feux.</p>
+  </td>
+  <td class="en">
+<p>“Prince Auersperg is on this, on our side of the river, and is defending
+us—doing it very badly, I think, but still he is defending us. But Vienna is on
+the other side. No, the bridge has not yet been taken and I hope it will not
+be, for it is mined and orders have been given to blow it up. Otherwise we
+should long ago have been in the mountains of Bohemia, and you and your army
+would have spent a bad quarter of an hour between two fires.”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Cela ne veut pourtant pas dire, reprit le prince André, que la campagne soit
+finie&nbsp;?</p>
+  </td>
+  <td class="en">
+<p>“But still this does not mean that the campaign is over,” said Prince Andrew.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Et moi, je crois qu’elle l’est. Nos gros bonnets d’ici le pensent également,
+sans oser le dire. Il arrivera ce que j’ai prédit dès le début. Ce n’est pas
+votre échauffourée de Diernstein, ce n’est pas la poudre qui tranchera la
+question, mais ce sont ceux qui l’ont inventée.&nbsp;»</p>
+<p>Bilibine venait de répéter un de ses mots&nbsp;; il reprit au bout d’une seconde,
+en déplissant son front&nbsp;:</p>
+<p>« Toute la question est dans le résultat de l’entrevue de l’empereur Alexandre
+avec le roi de Prusse à Berlin. Si la Prusse entre dans l’alliance, on force la
+main à l’Autriche, et il y aura guerre, sinon il n’y a plus qu’à s’entendre sur
+le lieu de réunion pour poser les préliminaires d’un nouveau Campo-Formio.</p>
+  </td>
+  <td class="en">
+<p>“Well, I think it is. The bigwigs here think so too, but they daren’t say so.
+It will be as I said at the beginning of the campaign, it won’t be your
+skirmishing at Dürrenstein, or gunpowder at all, that will decide the matter,
+but those who devised it,” said Bilíbin quoting one of his own mots, releasing
+the wrinkles on his forehead, and pausing. “The only question is what will come
+of the meeting between the Emperor Alexander and the King of Prussia in Berlin?
+If Prussia joins the Allies, Austria’s hand will be forced and there will be
+war. If not it is merely a question of settling where the preliminaries of the
+new Campo Formio are to be drawn up.”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Quel merveilleux génie et quel bonheur il a&nbsp;! s’écria le prince André, en
+frappant la table de son poing fermé.</p>
+  </td>
+  <td class="en">
+<p>“What an extraordinary genius!” Prince Andrew suddenly exclaimed, clenching his
+small hand and striking the table with it, “and what luck the man has!”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Bonaparte ? demanda interrogativement Bilibine, en replissant son front,
+c’était le signe avant-coureur d’un mot&nbsp;: Buonaparte&nbsp;? continua-t-il en
+accentuant l’«&nbsp;u&nbsp;» ; mais j’y pense, maintenant qu’il dicte de Schœnbrünn
+des lois à l’Autriche, il faut lui faire grâce de l’«&nbsp;u&nbsp;»&nbsp;! Je me
+décide à cette suppression et je rappellerai désormais Bonaparte, tout court.</p>
+  </td>
+  <td class="en">
+<p>“Buonaparte?” said Bilíbin inquiringly, puckering up his forehead to indicate
+that he was about to say something witty. “Buonaparte?” he repeated,
+accentuating the u: “I think, however, now that he lays down laws for Austria
+at Schönbrunn, il faut lui faire grâce de l’u! I shall certainly adopt an
+innovation and call him simply Bonaparte!”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Voyons, sans plaisanterie, croyez-vous que la campagne soit terminée&nbsp;?</p>
+  </td>
+  <td class="en">
+<p>“But joking apart,” said Prince Andrew, “do you really think the campaign is over?”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Voici ce que je crois : l’Autriche, cette fois, a été le dindon de la farce ;
+elle n’y est pas habituée et elle prendra sa revanche. Elle a été le dindon,
+premièrement&nbsp;: parce que les provinces sont ruinées (l’orthodoxe, vous le
+savez, est terrible pour le pillage), l’armée détruite, la capitale prise, et
+tout cela pour les beaux yeux de Sa Majesté de Sardaigne&nbsp;; et secondement,
+ceci, mon cher, entre nous, je sens d’instinct qu’on nous trompe, je flaire des
+rapports et des projets de paix avec la France, d’une paix secrète conclue
+séparément.</p>
+  </td>
+  <td class="en">
+<p>“This is what I think. Austria has been made a fool of, and she is not used to
+it. She will retaliate. And she has been fooled in the first place because her
+provinces have been pillaged—they say the Holy Russian army loots terribly—her
+army is destroyed, her capital taken, and all this for the beaux yeux of His
+Sardinian Majesty. And therefore—this is between ourselves—I instinctively feel
+that we are being deceived, my instinct tells me of negotiations with France
+and projects for peace, a secret peace concluded separately.”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— C’est impossible, ce serait trop vilain.</p>
+  </td>
+  <td class="en">
+<p>“Impossible!” cried Prince Andrew. “That would be too base.”</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>— Qui vivra verra, » repartit Bilibine.</p>
+  </td>
+  <td class="en">
+<p>“If we live we shall see,” replied Bilíbin, his face again becoming smooth as a
+sign that the conversation was at an end.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Et le prince André se retira dans la chambre qui lui avait été préparée.</p>
+<p>Une fois étendu entre des draps bien blancs, la tête sur des oreillers parfumés
+et moelleux, le prince André sentit malgré lui que la bataille dont il avait
+apporté la nouvelle passait de plus en plus à l’état de vague souvenir. Il ne
+pensait plus qu’à l’alliance prussienne, à la trahison de l’Autriche, au
+nouveau triomphe de Bonaparte, à la revue et à la réception de l’empereur
+François, pour le lendemain. Il ferma les yeux, et au même instant le bruit de
+la canonnade, de la fusillade et des roues éclata dans ses oreilles. Il voyait
+les soldats descendre un à un le long des montagnes, il entendait le tir des
+Français, il était là avec Schmidt au premier rang, les balles sifflaient
+gaiement autour de lui, et son cœur tressaillait et s’emplissait d’une folle
+exubérance de vie, comme il n’en avait jamais ressentie depuis son enfance. Il
+se réveilla en sursaut&nbsp;:</p>
+  </td>
+  <td class="en">
+<p>When Prince Andrew reached the room prepared for him and lay down in a clean
+shirt on the feather bed with its warmed and fragrant pillows, he felt that the
+battle of which he had brought tidings was far, far away from him. The alliance
+with Prussia, Austria’s treachery, Bonaparte’s new triumph, tomorrow’s levee
+and parade, and the audience with the Emperor Francis occupied his thoughts.</p>
+<p>He closed his eyes, and immediately a sound of cannonading, of musketry and the
+rattling of carriage wheels seemed to fill his ears, and now again drawn out in
+a thin line the musketeers were descending the hill, the French were firing,
+and he felt his heart palpitating as he rode forward beside Schmidt with the
+bullets merrily whistling all around, and he experienced tenfold the joy of
+living, as he had not done since childhood.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>« Oui, oui, c’était bien cela ! »</p>
+  </td>
+  <td class="en">
+<p>He woke up…</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+<p>Et il se rendormit heureux, avec un sourire d’enfant, du profond sommeil de la
+jeunesse.</p>
+  </td>
+  <td class="en">
+<p>“Yes, that all happened!” he said, and, smiling happily to himself like a
+child, he fell into a deep, youthful slumber.</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="fr">
+    <div class="prev"><a href="War_and_Peace-37.html">←</a></div>
+  </td>
+  <td class="en">
+    <div class="next"><a href="War_and_Peace-39.html">→</a></div>
+  </td>
+</tr>
+
+</table>
+
+</body>
+</html>
