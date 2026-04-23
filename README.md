@@ -249,7 +249,7 @@ https://fccm2.github.io/bilingual-literature/Grimm/The_Fox_and_the_Geese/The_Fox
 ### The Lady with the Camellias, by Alexandre Dumas son
 
 [Read online](
-https://fccm2.github.io/bilingual-literature/A_Dumas_son/Camille/Camille.html)
+https://fccm2.github.io/bilingual-literature/A_Dumas_son/The_Lady_with_the_Camellias/The_Lady_with_the_Camellias.html)
 
 
 ### Romeo and Juliet, by William Shakespeare
@@ -286,4 +286,5 @@ https://fccm2.github.io/bilingual-literature/Charles_Dickens/Oliver_Twist/Oliver
 
 [Read online](
 https://fccm2.github.io/bilingual-literature/Charles_Dickens/David_Copperfield/David_Copperfield-en-fr-TOC.html)
+
 
