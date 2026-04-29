@@ -1,6 +1,6 @@
 # Bilingual Literature
 
-Here are work in progress bilingual books made from public domain books available on
+Here are draft in progress bilingual books made from public domain books available on
 [Project Gutenberg][1] and [WikiSource][2] websites.
 
 [1]: http://www.gutenberg.org/
@@ -9,13 +9,8 @@ Here are work in progress bilingual books made from public domain books availabl
 
 ### Alice’s Adventures in Wonderland, by Lewis Carroll
 
-Read online:
-[fr-en](
-https://fccm2.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in_Wonderland/Alice_s_Adventures_in_Wonderland-fr-en-00.html) /
-[fr-de](
-https://fccm2.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in_Wonderland/Alice_s_Adventures_in_Wonderland-fr-de-00.html) /
-[en-de](
-https://fccm2.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in_Wonderland/Alice_s_Adventures_in_Wonderland-en-de-00.html)
+[Read online](
+https://fccm2.github.io/bilingual-literature/Lewis_Carroll/Alice_s_Adventures_in_Wonderland/Alice_s_Adventures_in_Wonderland-fr-en-00.html)
 
 
 ### Antony and Cleopatra, by William Shakespeare
